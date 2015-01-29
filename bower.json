@@ -1,0 +1,17 @@
+{
+  "name": "strophe.muc",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mgechev/strophe.muc",
+  "authors": [
+    "mgechev <mgechev@gmail.com>"
+  ],
+  "description": "MUC plugin for Strophe. Fork from https://github.com/metajack/strophejs-plugins/tree/master/muc",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
