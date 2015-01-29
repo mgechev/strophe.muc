@@ -5,9 +5,11 @@
     Nathan Zorn <nathan.zorn@gmail.com>
  *Complete CoffeeScript rewrite:
     Andreas Guth <guth@dbis.rwth-aachen.de>
+ *Supported by:
+    Minko Gechev <mgechev@gmail.com>
 ###
 
-Strophe.addConnectionPlugin 'muc'
+Strophe.addConnectionPlugin 'muc',
   _connection: null
   rooms: {}
   roomNames: []

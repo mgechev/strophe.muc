@@ -10,11 +10,12 @@ gulp.task('coffee', function () {
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('minify', function () {
+gulp.task('uglify', function () {
   'use strict';
   return gulp.src('./dist/strophe.muc.js')
+    .pipe(uglify())
     .pipe(rename('strophe.muc.min.js'))
-    .pipe(uglify());
+    .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['coffee', 'minify']);
+gulp.task('default', ['coffee', 'uglify']);
